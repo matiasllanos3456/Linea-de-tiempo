@@ -1,0 +1,9 @@
+.date-links {
+    list-style: none;
+}
+.fecha {
+    margin: 20px;
+    font-size: 30px;
+    background-color: rgb(200, 63, 0);
+    border-radius: 50px;
+}
