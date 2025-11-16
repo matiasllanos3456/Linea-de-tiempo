@@ -4,6 +4,7 @@ import {Page2} from './Page2';
 import {Page3} from './Page3';
 import {Page4} from './Page4';
 import {Page5} from './Page5';
+import {Page6} from './Page6';
 import {Link} from 'react-router-dom';
 
 
@@ -24,7 +25,9 @@ export const Page1 = () => {
             <li class='fecha'>
                 <Link to='/1700' element={<Page5/>}>1700</Link>
             </li>
-            <li class='fecha'>1600</li>
+            <li class='fecha'>
+                <Link to='/1600' element={<Page6/>}>1600</Link>
+            </li>
         </ul>
     </div>
 }
