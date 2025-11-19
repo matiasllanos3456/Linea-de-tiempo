@@ -17,7 +17,7 @@ function App() {
       <div>
         <BrowserRouter>
 
-          <Contador />
+          {/* <Contador /> */}
           {/* La barra de navegacion va a estar en todas las paginas */}
           <NavBar />
           {/* Dentro de cada ruta van a estar las distintas paginas */}

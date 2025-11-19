@@ -2,7 +2,7 @@ import './stylesNavBar.css'
 import {Page1} from './Page1'
 import {Link} from 'react-router-dom'
 export const NavBar = () => {
-    return <div>
+    return <div class='Nav-container'>
         <nav class='navbar'>
             <ul class='nav-links'>
                 <li class="#">
