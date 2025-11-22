@@ -1,4 +1,43 @@
-.flex-container {
+.grid-container {
+    /* Podria ocupar grid template area */
+    display: grid;
+    /* Todas las paginas tendrán la misma estructura */
+    grid-template-columns:  1fr 1fr 1fr; /* Dos columnas iguales */
+    grid-template-rows: auto auto auto;   
+    grid-template-areas: 
+                "text-item1 text-item1 img-item1"
+                "img-item2 text-item2 text-item2"
+                "text-item3 text-item3 img-item3";
+    gap: 30px; /* Espaciado entre celdas */
+    align-items: center; /* Centra los elementos verticalmente */
+    width: 100%; /* Asegura que ocupe todo el ancho */
+    max-width: 1200px; /* Opcional: limita el ancho máximo */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+} 
+/* .grid-item {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+}  */
+.text-item1 {
+    grid-area: text-item1;
+}
+.text-item2 {
+    grid-area: text-item2;
+}
+.text-item3 {
+    grid-area: text-item3;
+}
+.img-item1 {
+    grid-area: img-item1;
+}
+.img-item2 {
+    grid-area: img-item2;
+}
+.img-item3 {
+    grid-area: img-item3;
+}
+
+.grid-container > div {
+    margin-bottom: 70px;
 }

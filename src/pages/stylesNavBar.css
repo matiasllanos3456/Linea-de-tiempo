@@ -5,10 +5,29 @@
     flex-direction: row;
     gap: 100px;
     margin-bottom: 80px;
-    background-color: rgba(115, 115, 115, 0.841);
+    background-color: rgba(78, 78, 78, 0.841);
     padding: 10px;
     border-radius: 30px;
+    position: relative;
+    transition: color .2s ease, background-color .2s ease, transform .15s ease;
 }
 .Nav-container {
-    margin-bottom: 40px;
+    margin-bottom: 200px;
+}
+.navbar {
+    width: 100%;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px); 
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    gap: 60px;
+    flex-wrap: wrap;
+    border-radius: 16px;
+  }
+  .nav-link {
+    padding: 8px 10px;
+  }
 }

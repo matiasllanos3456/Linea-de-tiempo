@@ -10,7 +10,7 @@ import {Link} from 'react-router-dom';
 
 export const Page1 = () => {
     return <div>
-        <h1>Eventos mas importantes de cada siglo</h1>
+        <h1>Eventos historicos de cada siglo</h1>
         <ul class='date-links'>
             {/* Se vincularan los Links con cada ruta definida en App.jsx */}
             <li class='fecha'>

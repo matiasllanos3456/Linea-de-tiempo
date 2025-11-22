@@ -1,10 +1,10 @@
 
 .Text-box {
     background-color: rgb(90, 25, 255);
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: auto;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     box-shadow: -5px 25px 40px rgba(0, 0, 0, 0.3);
-}
+} 
