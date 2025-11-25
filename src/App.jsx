@@ -6,6 +6,7 @@ import {Page4} from './pages/Page4';
 import {Page5} from './pages/Page5';
 import {Page6} from './pages/Page6';
 import {NavBar} from './pages/NavBar';
+import {Footer} from './components/Footer';
 // Herramientas para trabajar con rutas de navegación
 import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import './App.css'
@@ -30,7 +31,8 @@ function App() {
             <Route path='/1700' element={<Page5 />}></Route>
             <Route path='/1600' element={<Page6 />}></Route>
           </Routes>
-          
+
+          <Footer/>
         </BrowserRouter>
       </div>
     </>

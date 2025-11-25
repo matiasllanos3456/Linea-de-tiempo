@@ -41,3 +41,19 @@
 .grid-container > div {
     margin-bottom: 70px;
 }
+@media (max-width: 768px) {
+    .grid-container {
+        /* Cambiamos a una sola columna */
+        grid-template-columns: 1fr;
+        /* Redefinimos las áreas para que se apilen verticalmente */
+        grid-template-areas:
+            "text-item1"
+            "img-item1"
+            "text-item2"
+            "img-item2"
+            "text-item3"
+            "img-item3";
+        gap: 20px; /* Menos espacio en móvil */
+        padding: 0 20px; /* Añade un poco de espacio a los lados */
+    }
+}
