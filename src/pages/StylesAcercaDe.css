@@ -1,0 +1,8 @@
+/* Se coloca el fondo en una clase que será modificada al cambiar de interfaz */
+.bg-NavBar {
+        background: url('https://static.vecteezy.com/system/resources/previews/010/282/085/non_2x/black-background-studio-blank-black-and-gray-background-studio-backdrop-wallpaper-inside-room-abstract-dark-gray-gradient-spotlight-floor-texture-background-free-photo.jpg') center/cover no-repeat fixed;
+}
+.AcercaDe-container {
+    background-color: #242424;
+    border-radius: 20px;
+}

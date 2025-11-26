@@ -1,5 +1,22 @@
+.bg-home {
+  min-height: 100vh;
+  background: url('/fondo-home.jpg') center/cover no-repeat fixed;
+}
+.bg-dark {
+  min-height: 100vh;
+  background: #121212 center/cover no-repeat fixed; /* oscuro */
+}
+.bg-home, .bg-dark {
+  min-height: 100vh;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+body {
+  margin: 0;
+}
 #root {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
